@@ -9,4 +9,4 @@ DB_PORT=3306
 DB_DATABASE=Nama database
 DB_USERNAME=user database
 DB_PASSWORD=password database
-5. setelah itu tinggal di "php artisan key:generate" dan "php artisan migrate" lalu "php artisan serve"
+5. setelah itu tinggal di "php artisan key:generate" dan "php artisan migrate" serta "php artisan storage:link" lalu "php artisan serve"
