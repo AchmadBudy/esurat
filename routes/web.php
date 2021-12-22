@@ -48,7 +48,7 @@ Route::get('/surat-masuk/edit/{id}', [SuratMasukController::class, 'editSuratMas
 Route::get('/surat-keluar', [SuratKeluarController::class, 'suratKeluar'])->middleware(['auth']);
 Route::get('/surat-keluar/tambah', [SuratKeluarController::class, 'tambahSuratKeluar'])->middleware(['auth']);
 Route::post('/surat-keluar/tambah', [SuratKeluarController::class, 'storeSuratKeluar'])->middleware(['auth']);
-Route::post('/surat-keluar/hapus', [SuratKeluarController::class, 'storeSuratKeluar'])->middleware(['auth']);
+Route::post('/surat-keluar/hapus', [SuratKeluarController::class, 'hapusSuratKeluar'])->middleware(['auth']);
 Route::get('/surat-keluar/edit/{id}', [SuratKeluarController::class, 'editSuratKeluar'])->middleware(['auth']);
 Route::post('/surat-keluar/edit', [SuratKeluarController::class, 'editedSuratKeluar'])->middleware(['auth']);
 

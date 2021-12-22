@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('gambar')->default('default.jpg');
             $table->foreignId('jabatan_id')->constrained('jabatans')->onDelete('restrict')->onUpdate('cascade');
-            $table->integer('NIP');
+            $table->bigInteger('NIP');
             $table->string('no_telp');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();

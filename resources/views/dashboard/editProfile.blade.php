@@ -43,7 +43,7 @@
     <form id="general-info" class="section general-info" method="POST" action="/profile/edit" enctype="multipart/form-data">
         @csrf
         <div class="info">
-            <h6 class="">General Information</h6>
+            <h6 class="">Edit Profile</h6>
             <div class="row">
                 <div class="col-lg-11 mx-auto">
                     <div class="row">

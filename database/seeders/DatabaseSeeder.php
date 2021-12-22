@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             'no_telp' => 85257232024,
             'email' => 'admin@admin.com',
             'is_admin' => true,
-            'gambar' => '90x90.jpg',
+            'gambar' => 'default.jpg',
             'password' => bcrypt('password'),
         ]);
     }
